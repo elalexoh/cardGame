@@ -1,9 +1,9 @@
-export class Person{
-  constructor(name){
+export class Player {
+  constructor(name) {
     this.name = name;
   }
 
-  sayHello(){
+  sayHello() {
     return `Hello from ${this.name}`;
   }
 }
